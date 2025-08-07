@@ -18,22 +18,24 @@ By combining my analytical mindset with a keen eye for detail, I am now able to 
 
 ## Courses with certificates
 
-* [QA Fundamentals and Manual Testing - **SoftUni**](https://ibb.co/0jZ2TtxL)
-
-* [Software Technologies - **SoftUni**](https://ibb.co/Zp8YgJh9)
-
-* [QA Basics - **SoftUni**](https://ibb.co/Jjx6b30g)
-
-* [AI Basics - **SoftUni**](https://ibb.co/8gfyYvJm)
-
 * [Programming Fundamentals and Unit Testing - **SoftUni**](https://softuni.bg/certificates/details/246471/dc36c804)
+
+* [QA Fundamentals and Manual Testing - **SoftUni**](https://softuni.bg/certificates/details/242605/0c40d767)
+
+* [Software Technologies - **SoftUni**](https://softuni.bg/certificates/details/238302/a36cbeec)
+
+* [IT Career Booster - **SoftUni**](https://softuni.bg/certificates/details/241667/7529f5d1)
+
+* [QA Basics - **SoftUni**](https://softuni.bg/certificates/details/231643/5a525966)
+
+* [AI Basics - **SoftUni**](https://ai.softuni.bg/certificates/details/1588/1b2af809)
 
 ## Courses in Progress
 
 * The Complete 2025 Software Testing Bootcamp - **Udemy**
 
-* Programming Fundamentals and Unit Testing - **SoftUni**
-
+* Programming Advanced for QA - **SoftUni**
+  
 ## Testing tools:   
 
 * Bug Tracking - JIRA, Trello                       
@@ -45,6 +47,7 @@ By combining my analytical mindset with a keen eye for detail, I am now able to 
 
 * C#
 * JavaScript
+* Python
 * SQL
 * HTML
 * CSS
