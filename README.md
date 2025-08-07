@@ -26,6 +26,8 @@ By combining my analytical mindset with a keen eye for detail, I am now able to 
 
 * [AI Basics - **SoftUni**](https://ibb.co/8gfyYvJm)
 
+* [Programming Fundamentals and Unit Testing - **SoftUni**](https://softuni.bg/certificates/details/246471/dc36c804)
+
 ## Courses in Progress
 
 * The Complete 2025 Software Testing Bootcamp - **Udemy**
@@ -37,9 +39,11 @@ By combining my analytical mindset with a keen eye for detail, I am now able to 
 * Bug Tracking - JIRA, Trello                       
 * Test Case Management Tools - TestRail, Zephyr
 * API testing - Postman
+* Unit Testing - Visual Studio
 
 ## Languages:                                                         
 
+* C#
 * JavaScript
 * SQL
 * HTML
