@@ -18,6 +18,8 @@ By combining my analytical mindset with a keen eye for detail, I am now able to 
 
 ## Courses with certificates
 
+*[Programming Advanced for QA - **SoftUni**](https://softuni.bg/certificates/details/249070/2ee30643)
+
 * [Programming Fundamentals and Unit Testing - **SoftUni**](https://softuni.bg/certificates/details/246471/dc36c804)
 
 * [QA Fundamentals and Manual Testing - **SoftUni**](https://softuni.bg/certificates/details/242605/0c40d767)
@@ -33,8 +35,6 @@ By combining my analytical mindset with a keen eye for detail, I am now able to 
 ## Courses in Progress
 
 * The Complete 2025 Software Testing Bootcamp - **Udemy**
-
-* Programming Advanced for QA - **SoftUni**
   
 ## Testing tools:   
 
