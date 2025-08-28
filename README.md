@@ -47,7 +47,6 @@ By combining my analytical mindset with a keen eye for detail, I am now able to 
 
 * C#
 * JavaScript
-* Python
 * SQL
 * HTML
 * CSS
