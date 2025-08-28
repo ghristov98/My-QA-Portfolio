@@ -1,5 +1,7 @@
 # Annual Mobile Client Application Testing: Kinesis
 
+<img width="1915" height="223" alt="Screenshot 2025-08-28 103621" src="https://github.com/user-attachments/assets/2fdeba8d-b19e-4ba1-88dc-780af55b1d24" />
+
 ## Overview
 
 This project documents the annual usability and functionality testing of the client application “Kinesis”. The goal is to evaluate installation, compatibility, usability, performance, and overall user experience. The report highlights the testing process, findings, and challenges, including screenshots of flaws where applicable.
