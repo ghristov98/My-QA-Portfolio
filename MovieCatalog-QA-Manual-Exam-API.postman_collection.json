@@ -1,0 +1,205 @@
+{
+	"info": {
+		"_postman_id": "1f84d9c1-6d57-4834-8c15-d72e95d95cb0",
+		"name": "QA Manual Exam API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41526123",
+		"_collection_link": "https://www.postman.com/security-administrator-14994541/qa-fundamentals-api-testing/collection/uyte68e/qa-manual-exam-api?action=share&source=collection_link&creator=41526123"
+	},
+	"item": [
+		{
+			"name": "Creating a user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"ghristov98\",\r\n  \"firstName\": \"Georgi\",\r\n  \"lastName\": \"Hristov\",\r\n  \"email\": \"georgi@hristov.com\",\r\n  \"password\": \"ghristov\",\r\n  \"rePassword\": \"ghristov\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{endpoint\n}}/User/Register",
+					"host": [
+						"{{endpoint\n}}"
+					],
+					"path": [
+						"User",
+						"Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Authentication",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"t@a.a\",\r\n  \"password\": \"12345678\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{endpoint\n}}/User/Authentication",
+					"host": [
+						"{{endpoint\n}}"
+					],
+					"path": [
+						"User",
+						"Authentication"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a movie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"string\",\r\n  \"description\": \"string\",\r\n  \"posterUrl\": \"\",\r\n  \"trailerLink\": \"\",\r\n  \"isWatched\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{endpoint\n}}/Movie/Create",
+					"host": [
+						"{{endpoint\n}}"
+					],
+					"path": [
+						"Movie",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{endpoint\n}}/Catalog/All",
+					"host": [
+						"{{endpoint\n}}"
+					],
+					"path": [
+						"Catalog",
+						"All"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change Title",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \t\"title\": \"test\",\r\n  \t\"description\": \"test\",\r\n  \t\"posterUrl\": \"\",\r\n  \t\"trailerLink\": \"\",\r\n  \t\"isWatched\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{endpoint\n}}/Movie/Edit?movieId=1d21e0bb-94d8-4ca0-a58f-08dd71dd43c0",
+					"host": [
+						"{{endpoint\n}}"
+					],
+					"path": [
+						"Movie",
+						"Edit"
+					],
+					"query": [
+						{
+							"key": "movieId",
+							"value": "1d21e0bb-94d8-4ca0-a58f-08dd71dd43c0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deleting a movie",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{endpoint\n}}/Movie/Delete?movieId=1d21e0bb-94d8-4ca0-a58f-08dd71dd43c0",
+					"host": [
+						"{{endpoint\n}}"
+					],
+					"path": [
+						"Movie",
+						"Delete"
+					],
+					"query": [
+						{
+							"key": "movieId",
+							"value": "1d21e0bb-94d8-4ca0-a58f-08dd71dd43c0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{vault:authorization-secret}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "endpoint\n",
+			"value": "https://d24hkho2ozf732.cloudfront.net/api"
+		}
+	]
+}
