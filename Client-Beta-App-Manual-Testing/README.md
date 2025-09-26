@@ -6,7 +6,7 @@
 > **Project Type**: Manual Quality Assurance & Security Testing  
 > **Client**: Rainbow (Confidential Beta)  
 > **Role**: QA Tester  
-> **Duration**: October 2025  
+> **Duration**: September 2025  
 > **Platform**: Android (Samsung Galaxy S24 Ultra, Android 15)
 
 ---
