@@ -13,9 +13,12 @@
 
 ##  Overview
 
-As part of a confidential QA engagement with **Finax Solutions**, I conducted an end-to-end manual test of the unreleased **Rainbow Beta v1.3**—an Ethereum wallet application with integrated KYC (Know Your Customer) identity verification.
+This assignment was commissioned to **evaluate the effectiveness of Rainbow’s newly developed in-house AI authentication system**, designed to **compare facial biometrics from a user’s government-issued ID with real-time selfies and liveness videos** during onboarding.
 
-The primary objective was to evaluate the **user onboarding flow**, **authentication security**, and **KYC pipeline robustness**, with special focus on preventing identity fraud and ensuring a seamless user experience.
+As stated in the testing brief:
+> _“Rainbow’s newly improved authentication-algorithm will compare the user’s documents to facial features in real-time… the in-house developed AI will compare between the features on the document and the features of the tester.”_
+
+My role was to **stress-test this AI pipeline** by submitting a wide range of valid, invalid, partial, and synthetic inputs—and assess whether the system could reliably detect fraud, enforce liveness, and validate identity.
 
 ---
 
@@ -31,6 +34,12 @@ The primary objective was to evaluate the **user onboarding flow**, **authentica
 - **Security & Usability Heuristics**
 - **Cross-Device Compatibility** (Android v8+)
 
+- Each step was designed to feed data into Rainbow’s proprietary AI for:
+- Facial feature matching (ID photo ↔ live face)
+- Liveness detection
+- Document authenticity checks
+- Consistency across multi-modal inputs
+
 >  **99 test cases executed** across 6 functional modules  
 >  **Full visual documentation** with annotated screenshots at every step
 
@@ -38,7 +47,7 @@ The primary objective was to evaluate the **user onboarding flow**, **authentica
 
 ##  Critical Findings
 
-Despite a polished UI, the beta revealed **severe security vulnerabilities** in its KYC pipeline:
+Despite the stated AI capabilities, **no meaningful server-side validation or biometric analysis occurred** during testing:
 
 - **69 bugs logged** — **65 classified as Critical**
 - **KYC bypasses**: System accepted:
@@ -51,17 +60,16 @@ Despite a polished UI, the beta revealed **severe security vulnerabilities** in 
 - **Non-functional UI elements** (e.g., “I already have a wallet”, “Terms of Use”)
 
 >  **Overall pass rate: 66.7%**  
->  **Recommendation**: **Do not release** without major security fixes
+>  **Conclusion**: The app’s **AI-powered KYC system failed to perform its core function**—enabling trivial bypass of identity verification. This creates a **high-risk vulnerability** for mass fraudulent account creation.
 
----
+##  Recommendations
 
-##  Key Recommendations Provided
-
-1. Implement **server-side document validation** (MRZ parsing, hologram checks)
-2. Integrate **liveness detection** (blink, head turn) in selfie/video flows
-3. Enforce **dual presence** (face + ID) in co-verification photos
-4. Add **OCR + address matching** for proof-of-residence
-5. Fix broken navigation and improve password/email validation
+To make the AI pipeline production-ready, Rainbow must implement:
+- **Server-side facial matching** (ID photo ↔ live selfie) with confidence scoring
+- **Active liveness detection** (e.g., challenge-response: “blink”, “turn left”)
+- **Document validation** via MRZ parsing, hologram detection, and edge completeness
+- **Real-time capture guidance** (e.g., overlay frames, lighting feedback)
+- **OCR + manual review fallback** for proof-of-address
 
 ---
 
