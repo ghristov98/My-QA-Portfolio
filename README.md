@@ -49,6 +49,7 @@ By combining an analytical mindset with a meticulous eye for detail, I contribut
 * API testing - Postman
 * Unit Testing - Visual Studio
 * Selenium - Selenium IDE, Selenium WebDriver
+* Appium
 * Playwright
 
 ## Languages:                                                         
