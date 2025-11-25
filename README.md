@@ -1,22 +1,26 @@
 # Portfolio
+
 Hello, my name is Georgi.
 
-Since the end of 2024, I have been actively studying and practicing to become a QA professional. I am excited to have found a field where I can grow and contribute meaningfully.
+Since the end of 2024, I have been actively studying and practicing to become a Quality Assurance (QA) professional. I’m excited to have found a field where I can grow, contribute meaningfully, and help build better digital experiences.
 
-With a Bachelor's degree in Biotechnology, I have developed a strong ability to follow structured protocols—an essential skill that naturally aligns with quality assurance. I see QA as an opportunity to enhance the digital experience for users, making it more seamless and accessible for everyone.
+With a Bachelor’s degree in Biotechnology, I’ve developed a strong ability to follow structured protocols—an essential skill that aligns naturally with quality assurance. I see QA as an opportunity to enhance software for users, making it more reliable, accessible, and intuitive.
 
-This portfolio showcases my knowledge of QA, along with the practical skills I have gained through courses, self-study, and my innate curiosity. I am committed to continuous learning and professional development. Currently, I am also delving into test automation, focusing on expanding my expertise and hands-on experience in this area including the usage of AI tools.
+This portfolio showcases my understanding of QA principles and the practical skills I've gained through coursework, self-study, and hands-on experimentation. Since August 2025, I’ve also been working as a freelancer, contributing to real-world projects that involve manual testing of web, mobile, and desktop applications, as well as API and unit test validation. I’m committed to continuous learning and professional growth. Currently, I’m also exploring test automation and experimenting with AI-powered tools to expand my testing capabilities and efficiency.
 
-## My experience
-With a solid foundation in biology and laboratory practices, I have developed strong attention to detail, problem-solving abilities, and experience in documenting and analyzing complex data. Throughout my career as a biologist, I was involved in rigorous research, experimenting, and adhering to strict protocols—skills that are directly transferable to the field of software quality assurance.
+## My Experience
 
-In my journey to becoming a Manual QA, I leveraged my scientific background to build a strong understanding of test processes, documentation, and data analysis. I transitioned my passion for identifying issues and ensuring quality into the tech industry, where I focus on testing software to ensure it functions as expected and meets user requirements.
+With a solid foundation in biology and laboratory practices, I’ve cultivated strong attention to detail, analytical thinking, and experience in documenting and interpreting complex data. Throughout my career as a biologist, I conducted rigorous experiments and adhered to strict procedural standards—skills that translate directly to software quality assurance.
 
-By combining my analytical mindset with a keen eye for detail, I am now able to contribute effectively to QA teams, where I test applications, identify potential bugs, and provide clear documentation of test results to ensure the highest standards of software quality.
+As I transitioned into manual QA, I leveraged my scientific background to build a disciplined approach to testing, including writing clear test cases, executing structured test plans, and accurately reporting defects. Since August 2025, I’ve been applying these skills as a freelance QA tester, collaborating with clients on diverse projects that range from e-commerce platforms to fintech applications.
+
+By combining an analytical mindset with a meticulous eye for detail, I contribute effectively to QA efforts—testing applications, uncovering bugs, and delivering clear, actionable documentation to support the delivery of high-quality software.
 
 [My LinkedIn profile](https://www.linkedin.com/in/georgi-hristov-316178276/)
 
 ## Courses with certificates
+
+* [Front-End Technologies Basics - **SoftUni**](https://softuni.bg/certificates/details/251796/47ac3fc3)
 
 * [Programming Advanced for QA - **SoftUni**](https://softuni.bg/certificates/details/249070/2ee30643)
 
@@ -34,6 +38,8 @@ By combining my analytical mindset with a keen eye for detail, I am now able to 
 
 ## Courses in Progress
 
+* Front-End Test Automation - **SoftUni**
+
 * The Complete 2025 Software Testing Bootcamp - **Udemy**
   
 ## Testing tools:   
@@ -42,6 +48,8 @@ By combining my analytical mindset with a keen eye for detail, I am now able to 
 * Test Case Management Tools - TestRail, Zephyr
 * API testing - Postman
 * Unit Testing - Visual Studio
+* Selenium - Selenium IDE, Selenium WebDriver
+* Playwright
 
 ## Languages:                                                         
 
@@ -54,10 +62,11 @@ By combining my analytical mindset with a keen eye for detail, I am now able to 
 ## Technical skills:
 
 * Manual Testing
-* Test Automation (Learning)
+* Test Automation (Playwright, Selenium)
 * VS Code, Visual Studio
-* MySQL (CREATE, INSERT INTO, DROP, ALTER, UPDATE, SELECT, SELECT DISTINCT, FROM, WHERE, IN, BETWEEN, LIKE, ORDER BY /ASC, DESC/, AND, OR and NOT)
+* MySQL (CREATE, INSERT INTO, UPDATE, SELECT, SELECT DISTINCT, FROM, WHERE, IN, BETWEEN, LIKE, ORDER BY /ASC, DESC/, AND, OR and NOT)
 * Replit
+* Firebase
 
 ## Soft skills:
 
@@ -93,4 +102,8 @@ By combining my analytical mindset with a keen eye for detail, I am now able to 
 
 * [Movie Catalog - SRS doc.](https://softwareuniversity-my.sharepoint.com/:w:/g/personal/ghristov98_students_softuni_bg/EU3F6e1On25GifrcAFOAvncBshgZR-sgxiypIyFj0vRIKQ?e=0NFZG4)
 
+#### [Rainbow Ethereum Wallet (Beta v1.3)](https://github.com/ghristov98/My-QA-Portfolio/tree/main/Client-Beta-App-Manual-Testing)
 
+#### [Annual Mobile Client Application Testing: Kinesis](https://github.com/ghristov98/My-QA-Portfolio/tree/main/Annual-Mobile-Client-Aplication-Testing)
+
+#### [TransferGo Mobile App – QA & Security Assessment](https://github.com/ghristov98/My-QA-Portfolio/tree/main/TransferGo-Mobile-App)
